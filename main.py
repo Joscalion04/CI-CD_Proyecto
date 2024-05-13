@@ -1,9 +1,9 @@
 from flask import Flask
 
-app = Flask(__name__)
+app = Flask(__name__) 
 
-@app.route("/")
+@app.route("/") # Funcion para ruta predeterminada
 def Hello():
     return "Hello, World!"
 
-app.run(host="0.0.0.0")
+app.run(host="0.0.0.0") #Host para Docker
