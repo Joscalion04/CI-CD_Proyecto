@@ -25,19 +25,3 @@ spec:
       tolerations:
         - key: "CriticalAddonsOnly"
           operator: "Exists"
-
-# Service
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: mi-servicio
-  namespace: default
-spec:
-  selector:
-    app: mi-aplicacion
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 5000
-  type: LoadBalancer
