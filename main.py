@@ -39,7 +39,7 @@ def Hello():
     </head>
     <body>
         <div class="container">
-            <h1>Welcome to CI/CD Project!</h1>
+            <h1>Welcome to CI/CD Project del Tigre!</h1>
             <h2>JAVI USAGA</h2>
             <h2>JEFFERSON SANDI</h2>
             <h2>JOHAN MORA</h2>
